@@ -73,6 +73,7 @@ public class MainFragment extends Fragment {
                         ImageView moviePoster = (ImageView) convertView.findViewById(
                                 R.id.grid_item_movie_imageview);
 
+                        // Source: http://square.github.io/picasso/
                         Picasso.with(getContext())
                                 .load(movie.getPosterURLString(getString(R.string.movie_poster_grid_size)))
                                 .fit()
@@ -103,6 +104,7 @@ public class MainFragment extends Fragment {
             }
         });
 
+        // Source: https://developer.android.com/guide/topics/ui/layout/gridview.html
         // Setup gridView
         GridView gridView = (GridView) rootView.findViewById(R.id.gridview_movies);
         gridView.setAdapter(mMoviesAdapter);
