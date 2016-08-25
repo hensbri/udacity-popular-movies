@@ -1,0 +1,28 @@
+<resources>
+    <!-- Main Activity Strings -->
+    <string name="app_name">Popular Movies</string>
+    <string name="movie_selector_text">Show movies by:</string>
+
+    <!-- Movie Main Strings -->
+    <string name="movie_selector_key" translatable="false">view_by</string>
+    <string name="movie_selector_label_popular">Popular</string>
+    <string name="movie_selector_label_top_rated">Top Rated</string>
+    <string name="movie_selector_value_popular" translatable="false">popular</string>
+    <string name="movie_selector_value_top_rated" translatable="false">top_rated</string>
+    <string name="movie_poster_grid_size" translatable="false">w185</string>
+
+    <!-- Movie Detail Strings -->
+    <string name="title_movie_activity_detail">Details</string>
+    <string name="movie_release_date_label" translatable="false">Release Date:</string>
+    <string name="max_num_stars" translatable="false">5</string>
+    <string name="rating_scale_factor" translatable="false">2</string>
+    <string name="rating_step_size" translatable="false">.2</string>
+    <string name="movie_max_rating" translatable="false">/ 10</string>
+    <string name="movie_poster_detail_size" translatable="false">w185</string>
+
+    <!-- Dummy/Filler Detail Text -->
+    <string name="movie_dummy_title" translatable="false">Movie Title</string>
+    <string name="movie_dummy_overview" translatable="false">Movie Overview</string>
+    <string name="movie_dummy_rating" translatable="false">5.5</string>
+    <string name="movie_dummy_release_date" translatable="false">2016-08-08</string>
+</resources>

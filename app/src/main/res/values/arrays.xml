@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="movie_selector_labels">
+        <item>@string/movie_selector_label_popular</item>
+        <item>@string/movie_selector_label_top_rated</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spinner_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/spinner_text_size"
+    android:padding="@dimen/movie_selector_padding"
+    android:popupBackground="@color/colorSelectorOptionsBackground"
+    android:background="@color/colorSelectorOptionsBackground"
+    android:textColor="@color/colorSelectorOptionsText" />

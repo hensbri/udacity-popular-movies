@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@color/colorSelectorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|right"
+        android:paddingTop="@dimen/movie_selector_padding"
+        android:paddingBottom="@dimen/movie_selector_padding">
+
+        <TextView
+            style="@style/BaseText"
+            android:padding="@dimen/movie_selector_padding"
+            android:background="@color/colorSelectorLabelBackground"
+            android:gravity="center"
+            android:textSize="@dimen/spinner_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/movie_selector_text"/>
+
+        !-- Sourced from https://developer.android.com/guide/topics/ui/controls/spinner.html -->
+        <Spinner
+            android:id="@+id/movie_selector"
+            android:popupBackground="@color/colorSelectorOptionsBackground"
+            android:background="@color/colorSelectorOptionsBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Spinner>
+
+    </LinearLayout>
+
+    <GridView android:background="@color/colorGridBackground"
+        android:stretchMode="columnWidth"
+        android:columnWidth="@dimen/grid_item_movie_width"
+        android:gravity="center"
+        android:id="@+id/gridview_movies"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>
