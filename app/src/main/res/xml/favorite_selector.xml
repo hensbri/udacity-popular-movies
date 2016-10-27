@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Found snippet here: https://www.mkyong.com/android/android-imagebutton-selector-example/
+    on how to use selector for imagebuttons
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="false"
+        android:drawable="@mipmap/heart_unselected" />
+    <item
+        android:state_selected="true"
+        android:drawable="@mipmap/heart" />
+</selector>

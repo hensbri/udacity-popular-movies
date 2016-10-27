@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:baselineAligned="false"
+    android:background="@color/colorMainBackground"
+    android:divider="?android:attr/dividerHorizontal"
+    android:orientation="horizontal">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:name="apps.hensbri.popularmovies.fragments.MovieSlideFragment"
+        android:id="@+id/fragment_movie_slider"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        tools:context=".MovieSlideFragment"
+        android:layout_weight="4"/>
+
+    <FrameLayout
+        android:id="@+id/movie_detail_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4" />
+
+</LinearLayout>

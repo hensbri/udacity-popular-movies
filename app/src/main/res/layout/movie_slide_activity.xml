@@ -1,8 +1,8 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".activities.MovieDetailActivity"
+    tools:context=".activities.MovieSlideActivity"
     tools:ignore="MergeRootFrame"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorMainBackground"
-    android:id="@+id/movie_detail_container"/>
+    android:id="@+id/movie_slide_container"/>
