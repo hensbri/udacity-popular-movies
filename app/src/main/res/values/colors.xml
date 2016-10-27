@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#B5513F</color>
-    <color name="colorPrimaryDark">#A0513F</color>
     <color name="colorAccent">#D5513F</color>
 
     <color name="colorGridBackground">#000000</color>
     <color name="colorMainBackground">#000000</color>
 
-    <color name="colorSelectorBackground">#000000</color>
-    <color name="colorSelectorOptionsBackground">#B5513F</color>
-    <color name="colorSelectorOptionsText">#FFFFFF</color>
-    <color name="colorSelectorText">#B5513F</color>
-    <color name="colorSelectorLabelBackground">#000000</color>
+    <color name="colorText">#FFFFFF</color>
 
-    <color name="colorRatingColor">#D5513F</color>
-    <color name="colorRatingSecondary">#999999</color>
-    <color name="colorRatingBackground">#000000</color>
 </resources>

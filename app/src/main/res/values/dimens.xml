@@ -1,13 +1,16 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">4sp</dimen>
-    <dimen name="activity_vertical_margin">4sp</dimen>
-    <dimen name="movie_max_rating_padding">2sp</dimen>
-    <dimen name="movie_selector_padding">4sp</dimen>
-    <dimen name="grid_item_movie_width">185sp</dimen>
-    <dimen name="grid_item_movie_height">300sp</dimen>
-    <dimen name="spinner_text_size">16sp</dimen>
-    <dimen name="movie_poster_detail_width">185sp</dimen>
-    <dimen name="movie_poster_detail_height">300sp</dimen>
-    <dimen name="movie_poster_detail_padding">8sp</dimen>
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="paragraph_bottom_padding">4dp</dimen>
+    <dimen name="movie_max_rating_padding">2dp</dimen>
+    <dimen name="video_icon_padding">2dp</dimen>
+    <dimen name="movie_selector_padding">4dp</dimen>
+    <dimen name="grid_item_movie_width">185dp</dimen>
+    <dimen name="grid_item_movie_height">300dp</dimen>
+    <dimen name="movie_poster_detail_width">185dp</dimen>
+    <dimen name="movie_poster_detail_height">300dp</dimen>
+    <dimen name="movie_poster_detail_padding">8dp</dimen>
+    <dimen name="listview_padding">8dp</dimen>
+    <dimen name="movie_title_text_size">45sp</dimen>
+    <dimen name="tab_strip_text_size">24sp</dimen>
 </resources>

@@ -1,12 +1,12 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin">
+    android:layout_height="match_parent">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
         android:orientation="vertical">
 
         <LinearLayout
@@ -19,8 +19,7 @@
                 android:id="@+id/movie_poster"
                 android:layout_width="@dimen/movie_poster_detail_width"
                 android:layout_height="@dimen/movie_poster_detail_height"
-                android:paddingRight="@dimen/movie_poster_detail_padding"
-                android:src="@mipmap/ic_launcher" />
+                android:paddingRight="@dimen/movie_poster_detail_padding" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -31,19 +30,21 @@
                 <TextView
                     android:id="@+id/movie_title"
                     style="@style/MovieTitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/movie_dummy_title" />
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
 
                 <TextView
-                    android:id="@+id/move_release_date_label"
-                    style="@style/BaseText"
-                    android:text="@string/movie_release_date_label" />
+                    android:id="@+id/movie_release_date"
+                    style="@style/MediumText" />
 
-                <TextView
-                    android:id="@+id/move_release_date"
-                    style="@style/BaseText"
-                    android:text="@string/movie_dummy_release_date" />
+                <ImageButton
+                    android:id="@+id/movie_favorite_button"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:visibility="invisible"
+                    android:background="@xml/favorite_selector"/>
+
             </LinearLayout>
         </LinearLayout>
 
@@ -56,15 +57,9 @@
 
             <TextView
                 android:id="@+id/movie_rating"
-                style="@style/BaseText"
-                android:text="@string/movie_dummy_rating" />
-
-            <TextView
-                android:id="@+id/movie_max_rating"
-                style="@style/BaseText"
+                style="@style/MediumText"
                 android:paddingLeft="@dimen/movie_max_rating_padding"
-                android:paddingRight="@dimen/movie_max_rating_padding"
-                android:text="@string/movie_max_rating" />
+                android:paddingRight="@dimen/movie_max_rating_padding"/>
 
             <!-- Sourced from https://developer.android.com/reference/android/widget/RatingBar.html -->
             <RatingBar
@@ -72,13 +67,27 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:isIndicator="true"
-                android:numStars="@string/max_num_stars" />
+                android:rating="0"/>
+
         </LinearLayout>
 
         <TextView
             android:id="@+id/movie_overview"
-            style="@style/BaseText"
-            android:text="@string/movie_dummy_overview" />
+            android:padding="@dimen/listview_padding"
+            style="@style/MediumText" />
+
+        <FrameLayout
+            android:id="@+id/fragment_videos"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <FrameLayout
+            android:id="@+id/fragment_reviews"
+            android:layout_weight="7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
     </LinearLayout>
+
 </ScrollView>

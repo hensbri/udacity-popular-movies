@@ -1,10 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/container"
+    tools:context=".activities.MainActivity"
+    tools:ignore="MergeRootFrame"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    tools:ignore="MergeRootFrame"
-    android:background="@color/colorMainBackground"/>
+    android:background="@color/colorMainBackground"
+    android:id="@+id/main_activity_container">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:name="apps.hensbri.popularmovies.fragments.MovieSlideFragment"
+        android:id="@+id/fragment_movie_slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MovieSlideFragment"/>
+
+</FrameLayout>

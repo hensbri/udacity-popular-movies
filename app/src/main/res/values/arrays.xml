@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="movie_selector_labels">
-        <item>@string/movie_selector_label_popular</item>
-        <item>@string/movie_selector_label_top_rated</item>
+    <string-array name="tab_labels">
+        <item>Top Rated</item>
+        <item>Popular</item>
+        <!--<item>Now Playing</item>
+        <item>Upcoming</item>-->
+        <item>Favorties</item>
+    </string-array>
+    <string-array name="tab_keys">
+        <item>top_rated</item>
+        <item>popular</item>
+        <!--<item>now_playing</item>
+        <item>upcoming</item>-->
+        <item>@string/movie_favorites_key</item>
     </string-array>
 </resources>
